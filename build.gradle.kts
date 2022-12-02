@@ -31,6 +31,9 @@ dependencies {
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	runtimeOnly("mysql:mysql-connector-java")
 	//testImplementation("org.springframework.security:spring-security-test")
 
 	implementation("io.springfox:springfox-boot-starter:3.0.0")
